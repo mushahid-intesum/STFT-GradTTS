@@ -76,7 +76,3 @@ Put necessary HiFi-GAN checkpoints into `checkpts` folder in root directory (not
     tensorboard --logdir=YOUR_LOG_DIR --port=8888
     ```
     During training all logging information and checkpoints are stored in `YOUR_LOG_DIR`, which you can specify in `params.py` before training.
-
-
-### Note
-If you'd like to run the SDP+Context model, simple comment out the parts under GradTTSSDP model comments and uncomment the parts under GradTTSSDPContext in `train.py` and `inference.py`
