@@ -47,6 +47,7 @@ pip install -r requirements.txt
 ## Inference
 
 You can download BnTTS dataset (22kHz) from [here](https://drive.google.com/drive/folders/195CgbUxViuGg0aJKUSvkYulTJEf3eUbS?usp=drive_link).
+Checkpoint and configuration for HiFi-GAN can be downloaded from [here][https://drive.google.com/drive/folders/16XgUgEain3snwZZuINyqxFe0gmhX6sw3?usp=drive_link]
 
 Put necessary HiFi-GAN checkpoints into `checkpts` folder in root directory (note: in `inference.py` you can change default HiFi-GAN path).
 
