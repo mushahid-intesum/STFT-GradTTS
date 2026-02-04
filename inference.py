@@ -33,8 +33,8 @@ from text.bn_phonemiser import bangla_text_normalize, replace_number_with_text
 
 # import IPython.display as ipd
 
-HIFIGAN_CONFIG = '/mnt/Stuff/TTS/speech_synthesis_in_bangla-master/checkpts/hifigan-config.json'
-HIFIGAN_CHECKPT = '/mnt/Stuff/TTS/speech_synthesis_in_bangla-master/checkpts/hifigan.pt'
+HIFIGAN_CONFIG = './checkpts/hifigan-config.json'
+HIFIGAN_CHECKPT = './checkpts/hifigan.pt'
 
 
 ipa_dict = {'ɖ̤': 0,
